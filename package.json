@@ -1,0 +1,26 @@
+{
+  "name": "drag",
+  "version": "0.0.1",
+  "description": "simple react drag",
+  "main": "index.js",
+  "author": "Grant Glidewell <grant@grantglidewell.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-serve --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-beta.56",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.16.4",
+    "webpack-serve": "^2.0.2"
+  }
+}

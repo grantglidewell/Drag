@@ -1,0 +1,20 @@
+.sort {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  cursor: pointer;
+  justify-content: space-evenly;
+}
+.sort li {
+  display: flex;
+  align-items: center;
+}
+.sort li:nth-child(odd) {
+  background-color: #fafafa;
+}
+.handle {
+  padding: 1rem;
+  align-self: center;
+}
