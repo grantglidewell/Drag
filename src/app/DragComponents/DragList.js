@@ -22,6 +22,10 @@ export default class DragList extends Component {
               key={i}
               id={i}
               draggable={true}
+              onDragStart={event => {
+                // firefox requires this event, it does nothing
+                event.dataTransfer.setData("text", "");
+              }}
               onDragOver={evt => {
                 evt.preventDefault()
               }}
